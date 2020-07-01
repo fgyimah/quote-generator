@@ -34,7 +34,7 @@ async function getQuote() {
     if (data.quoteAuthor === '') {
       authorText.innerText = 'Unknown';
     } else {
-      authorText.innerText = data.authorText;
+      authorText.innerText = data.quoteAuthor;
     }
 
     quoteText.innerText = data.quoteText;
